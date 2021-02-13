@@ -1,4 +1,4 @@
-What computer science about? 
+iWhat computer science about? 
 	⁃	design algorithm
 	⁃	optimize the number of operation 
 
