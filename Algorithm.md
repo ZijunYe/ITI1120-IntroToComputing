@@ -1,12 +1,12 @@
-iWhat computer science about? 
+## What computer science about? 
 	⁃	design algorithm
 	⁃	optimize the number of operation 
 
-Big O
+## Big O
 	⁃	number of operation == running time/ program / algorithm 
 	⁃	keep highest depend of n, fast growing term in n, remove all constant and others 
 
-Searching
+## Searching
 	⁃	searching for value(don’t know the data) —>linear search (O(n))
 	1.	 x in list
 	2.	list.index (x)
@@ -15,14 +15,14 @@ Searching
 	⁃	 (index b + index(e) )//2 = mid 
 	⁃	if value > mid	—> index b =mid+1
 	⁃	if value < mid —> index e=mid-1
-Swap
+## Swap
 	⁃	string, int, float, tuple—> immutable 
 	⁃	list, set —>mutable 
 	⁃	swiping can be down create new value to contain 1 of value 
 	⁃	if it is swap list, can do like: a[1]=a[0]
 
-Sorting  
-	1.	selection sort (n**2)
+## Sorting  
+	`1.	selection sort (n**2)`
 def selection_sort(L):
    ''' sorts given list L'''
     for i in range(len(L)-1): # Find the minimum in the list[len(L)-1], the last number should be max
@@ -34,9 +34,9 @@ def selection_sort(L):
           # (the line of code below does basically nothing if L[i] is the minimum, i.e. if i==index_of_min)
           L[i],L[index_of_min]=L[index_of_min], L[i]
 			# this also can be write as tmp=L[i] L[i]= L[index_of_min] L[index_of_min]=tmp
-2. Merge sortO(n*logn)
-# recursive mergesort
-
+`2. Merge sortO(n*logn)`
+recursive mergesort
+```
 def merge_sort(L):
     if len(L)<2:
         return L[:]
@@ -45,7 +45,8 @@ def merge_sort(L):
         left=merge_sort(L[:middle])
         right=merge_sort(L[middle:])
         return merge(left,right)
-
+```
+```
 def merge(L1, L2):
      """ (list, list) -> list
      Merge sorted lists L1 and L2 into a new list and return that new list.
@@ -68,8 +69,9 @@ def merge(L1, L2):
      newL.extend(L1[i1:])
      newL.extend(L2[i2:])
      return newL
-
-3. quick sort O(n**2)
+```
+`3. quick sort O(n**2)`
+```
 def qs(a):
     """Return a sorted copy of a"""
     if len(a) == 0:
@@ -88,10 +90,10 @@ def qs(a):
          else:
              gt.append(item) 
     return qs(lt) + eq + qs(gt)
-
+```
 O(n*log2n)=n+(n-1)+(n-2)+(n-3)+….+1=(n+1)*n //2 
 
-Type of algorithm 
+## Type of algorithm 
 	1.	logarithmic O(logn) —>binary search
 	2.	linear O(n)—>linear search
 	3.	superlinear O(n*logn) —> heap sort, merge sort
@@ -99,7 +101,7 @@ Type of algorithm
 	5.	Exponential O(C**n)
 	6.	Factorial O(n!) 
 
-Recursion 
+## Recursion 
 	•	max 1000 function can run at the same time 
 	•	recursion depth/height in stack is 1000 
 	•	recursion similar like loop, do the small part in stack 
