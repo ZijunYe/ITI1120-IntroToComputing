@@ -8,4 +8,4 @@
 
 ## 3  [What is Object?](https://github.com/ZijunYe/LearningPython/blob/main/Object.md)
 
-## 4  [easy mistake I make when I learn python](https://github.com/ZijunYe/LearningPython/blob/main/Easy_Mistake.md)
+## 4  [easy mistake I made when I learn python](https://github.com/ZijunYe/LearningPython/blob/main/Easy_Mistake.md)
