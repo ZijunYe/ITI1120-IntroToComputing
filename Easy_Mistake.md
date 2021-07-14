@@ -1,4 +1,4 @@
-## Easy made mistakes	
+## Traps	
 	
 1.	input only allow 1 argument, using plus sign (+) to concatenate to produce new string 
 2.	input from user, the value returns always be string 
