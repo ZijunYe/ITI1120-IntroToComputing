@@ -1,11 +1,11 @@
 # Basic Operation 
 
 ## 0 Variable Type 
-int()
-str()
-float()
-set()
-list()
+     int()
+    str()
+    float()
+    set()
+    list()
 
 ## 1 Algebraic Operator
 ```
