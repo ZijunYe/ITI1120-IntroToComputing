@@ -23,23 +23,24 @@ int()--->no decimal
 
 ## 3 Boolean operators
 
-True,False,None
+    True,False,None
 
-and, or, not
+    and, or, not
 
 ## 4 indexing and slicing
 ### index:
-(0)---->(len(s)-1)
+    
+    (0)---->(len(s)-1)
 
--len(s)--->(-1)
+    -len(s)--->(-1)
 
 ### slicing:
-s[x:y:z]
+    s[x:y:z]
 
-x-begin y-end z-skip
+    x-begin y-end z-skip
 
 ## 5 range
-for i in range(start,stop,skip)
+    for i in range(start,stop,skip)
 
 ## 6 list method
 ```
@@ -56,11 +57,11 @@ list.index(object)--->crash if it does not exist
 list1.extend(list1 or other list)--> repeat or add new elements into list1
 ```
 ## 7 string operator
-str1 +str2  --> making a new words
+    str1 +str2  --> making a new words
 
-str1 * int1 --> make a copies of the words
+    str1 * int1 --> make a copies of the words
 
-int1 * str1-->concatenate copies
+    int1 * str1-->concatenate copies
 
 ## 8 string method
 ```
@@ -93,37 +94,37 @@ str * int ---> return copy of string
 ```
 ## 9 escape character
 
-\n ->newline
+    \n ->newline
 
-\t ->tab
+    \t ->tab
 
-\\ ->backslash
+    \\ ->backslash
 
-\''-> quote
+    \''-> quote
 
 ## 10 dictionary operator
 
-d.items() view of (key,value) in d as tuple
+    d.items() view of (key,value) in d as tuple
 
-d.get(k) == d[k] return value
+    d.get(k) == d[k] return value
 
-d.keys() -returns all keys of d
+    d.keys() -returns all keys of d
 
-d.pop(k) removes the (key,value) with key from d, returns it value
+    d.pop(k) removes the (key,value) with key from d, returns it value
 
-d.update(d2) add (key,value) pairs of d2 to d
+    d.update(d2) add (key,value) pairs of d2 to d
 
-d.values() -return all value of d
+    d.values() -return all value of d
 
 ## 11 set operator
 
-set1.union(set2)--> return a set that has set1 and set2 combination
+    set1.union(set2)--> return a set that has set1 and set2 combination
 
-set1.intersection(set2) --> return a set that common in set1 and set2
+    set1.intersection(set2) --> return a set that common in set1 and set2
 
-set_name.remove(element)
+    set_name.remove(element)
 
-set_name.add(elemnt)
+    set_name.add(elemnt)
 
 ## 12object method
 ```
@@ -162,19 +163,19 @@ except[could add what type of error]:
 ```
 ## 15. random
 
-import random
+    import random
 
-random.shuffle(x) —> x should be has lens (such as list)
+    random.shuffle(x) —> x should be has lens (such as list)
 
-random.randrange(stop)
+    random.randrange(stop)
 
-random.randrange(start,stop[,step])
+    random.randrange(start,stop[,step])
 
-random.randint(a,b)  —> output a<= x <=b
+    random.randint(a,b)  —> output a<= x <=b
 
-random.choice(x)—>random pick 1 elements from the list
+    random.choice(x)—>random pick 1 elements from the list
 
-random.sample(range(1,100),10) --> 10 is how many number to pick
+    random.sample(range(1,100),10) --> 10 is how many number to pick
 
 
 
