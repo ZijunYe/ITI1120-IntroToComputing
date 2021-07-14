@@ -1,4 +1,6 @@
-# Basic Knowlege about Python 
+# Basic Operation 
+
+## 0 Variable Type 
 int()
 str()
 float()
