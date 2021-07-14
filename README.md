@@ -1,5 +1,4 @@
-# Learn Python
-## Python Basic Notes 
+# Python Basic Notes 
 
 ## 0  [Basic Operation & Operator](https://github.com/ZijunYe/LearningPython/blob/main/Python_Basic.md)
 
